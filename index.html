@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Amiga HASP - by Michael Haephrati by haephrati</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Amiga HASP - by Michael Haephrati</h1>
+        <p>the AmigaHASP was a dongle based copy protection solution invented by Michael Haephrati and sold to Aladdin Knowledge Systems</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/haephrati/AmigaHASP" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/haephrati/AmigaHASP/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/haephrati/AmigaHASP/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <p>During 1989, while developing Rashumon, [[Michael Haephrati]] found himself looking for a copy protection solution for Amiga software but there wasn't any. The Amiga had a very non standard Parallel port, which made it impossible to just adopt a copy protection dongle from other platforms, and there was a need to develop a completely new system.</p>
+
+<p>Hardware based copy protection systems are based on a hardware device which interact with the computer using the port assigned to it. Back then (1989), the USB wasn't invented yet, and the Parallel port was used. The Parallel port was the port used for printers for many years, and therefore any dongle would need to have “pass through” connector allowing the printer to be connected to it, instead to the port directly.</p>
+
+<p>Hardware based copy protection requires interaction with the device through most of the connector pins, being able to read each pin’s value, and to change each pin’s value from 0 to 1 and vice versa. The Amiga didn’t provide any API to do so, which made me look for undocumented features, and code directly to the hardware instead of using any existing SDK.</p>
+
+<p>With the help of Shimon Groper, the founder of EliaShim, Haephrati have made many attempts to create a dongle compatible with the unique and undocumented hardware. He used to go from Tel-Aviv to Haifa, and after several hours, leave with a box, covered with many wires in all colors, which was supposed to be the prototype… Eventually he found the way to implement the first Amiga based copy protection dongle and instead of buying bulk dongles from Aladdin, He has accepted the kind offer of Yankee Margalit, their founder and CEO, to by the Amiga product from my small software house (HarmonySoft), and after a short period of negotiation, Aladdin paid him $12,000 and my product became the AmigaHASP.</p>
+
+<p><img src="http://michaelhaephrati.files.wordpress.com/2011/11/article-about-amigahasp12.jpg?w=762&amp;h=1024" alt="Article about the AmigaHASP"></p>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/haephrati">haephrati</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
